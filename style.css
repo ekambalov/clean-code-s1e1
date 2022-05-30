@@ -17,11 +17,6 @@ body {
   font-family: fantasy, cursive;
 }
 
-@media (max-width: 768px) {
-  .header {
-    text-align: center;
-  }
-}
 .main {
   display: block;
   width: 500px;
@@ -40,8 +35,7 @@ ul {
   margin: 0;
   padding: 0px;
 }
-li,
-h3 {
+li,h3 {
   list-style: none;
 }
 input,
@@ -81,11 +75,11 @@ button {
   border: 1px solid #ddd;
   background: #fff;
   border-radius: 6px;
-  font-family: Lato, sans-serif;
-  color: #888;
+  font-family: Lato, sans-serif
+  color: #888
 }
 [type="text"]:focus {
-  color: #333;
+  color: #333
 }
 
 /* New Task */
@@ -140,14 +134,20 @@ button {
 
 /* Edit Task */
 .task-list .task-item [type="text"] {
-  display: none;
+  display:none;
 }
 
 .task-list .task-item.edit-mode [type="text"] {
-  display: inline-block;
+  display:inline-block;
   width: 224px;
 }
 
 .task-list .task-item.edit-mode .label {
   display: none;
+}
+
+@media (max-width: 768px) {
+  .header {
+    text-align: center;
+  }
 }
