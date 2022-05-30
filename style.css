@@ -57,7 +57,8 @@ button {
   color: #3a3a3a;
 }
 /* Heading */
-.title, [for="new-task"] {
+.title,
+[for="new-task"] {
   color: #333;
   font-weight: 700;
   font-size: 15px;
